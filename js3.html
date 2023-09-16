@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <select name="" id="click" >
+        <option value="sel">Select any option</option>
+       
+    </select>
+    <script>
+        // var student=[];
+
+
+        // var string = ["abc","ear","fa"]
+
+
+        // var num = [123,2,3,4,5,6]
+
+
+        // var bool = [true,false]
+
+
+        // var edu = ["SSC","HSC","BCS","BS","BCOM","MS","M.PHIL","PHD"]
+        // let i = 0;
+        // let a=1
+        // for(i=0;i<edu.length;i++){
+        //     document.write(a+")" + " " + edu[i] + "</br>");
+        //     a++
+        // }
+
+        // var nam = ["Michael","John","Tony"];
+        // var numbers = [320,230,480];
+        // var Percentage= [];
+        // var i = 0;
+        // for(i=0;i<nam.length;i++){
+        //     Percentage[i] = (numbers[i]/500)*100 
+        //     document.write("Score of " + nam[i] + " is " + numbers[i] + ". " + "Percentage: " + Percentage[i] +"%" + "<br>" )
+        // }
+
+
+        // var color = ["orange","pink","black","blue"];
+        // var colorbeg= prompt("Add color you want to add in the beginning");
+        // color.unshift(colorbeg);
+        // document.write(color + "<br>")
+        // var colorend= prompt("Add color in the end");
+        // color.push(colorend);
+        // document.write("Updated array;" + color  + "<br>")
+        // var colorbeg= prompt("Add 1 color you want to add in the beginning");
+        // color.unshift(colorbeg);
+        // var colorbeg= prompt("Add 2 color you want to add in the beginning");
+        // color.unshift(colorbeg);
+        // document.write( "<br>"+ "Updated array;" + color + "<br>")
+        // color.shift();
+        // document.write( "<br>"+"After del 1st elem: " + color + "<br>");
+        // color.pop();
+        // document.write("<br>"+ "After del last elem: " + color + "<br>")
+
+        // var score = [320,230,480,120];
+        // score.sort();
+        // for(let i =0;i<score.length;i++){
+        //     document.write(score[i] + "<br>");
+        // }
+
+
+        // var citiesName = ["Islamabad","Karachi","Lahore","Quetta","Peshawar"];
+        // var selectedcity = citiesName.slice(1,4);
+        // for(let i = 0;i<selectedcity.length;i++){
+        //     document.write(selectedcity[i]+ "<br>")
+        // }
+
+        // var arr = ["This","is","my","cat"];
+        // arr.join();
+        // document.write(arr);
+        
+        // for(var i=0;i<arr.length;i++){
+        //     document.write(arr[i] + " ")
+            
+        // }
+
+        // var dev = ["Keyboard","mouse","printer","monitor"];
+        // for(let i =0;i<dev.length;i++){
+        //     document.write(dev[i]+ "<br>")
+        // }
+
+        // var dev = ["Keyboard","mouse","printer","monitor"];
+        // dev.reverse()
+        // for(let i =0;i<dev.length;i++){
+        //     document.write(dev[i]+ "<br>")
+        // }
+
+        let companies=["Apple","Motorola","SamSung","Huawei","HTC"]
+        companies.forEach(function(items){
+            let opt = document.createElement("option");
+            opt.value=items;
+            opt.text=items;
+            click.appendChild(opt);
+
+        })
+        
+    </script>
+</body>
+</html>
